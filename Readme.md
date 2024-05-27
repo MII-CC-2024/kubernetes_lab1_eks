@@ -44,7 +44,7 @@ Utiliza la consola Web de AWS para crear el cluster:
 - Selecciona Elastic Kubernetes Service (EKS)
 - Pulsa en Agregar Cluster y Crear
 - Inserta el nombre, deja el resto de opciones por defecto y pulsa siguiente
-- Elimina la subred "us-east-1e". Establezce el "Acceso al punto de enlace del clúster" como Público,
+- Elimina la subred "us-east-1e". Establace el grupo de seguridad por defecto. Establezce el "Acceso al punto de enlace del clúster" como Público,
  deja el resto de opciones por defecto y pulsa siguiente
 - Deja el resto de opciones por defecto, pulsando siguiente en las tres pantallas siguientes y pulsa en Crear.
 
