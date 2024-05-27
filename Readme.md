@@ -563,6 +563,14 @@ Comprobar funcionamiento de la imagen:
 docker run -d -p 8080:8080 --name hello_go jluisalvarez/go_hello:2023   
 ```
 
+Subir la imagen a Docker Hub:
+
+```shell
+
+docker push jluisalvarez/go_hello:2023
+
+```
+
 ## Crear Deployment en Kubernetes
 
 ```yaml
