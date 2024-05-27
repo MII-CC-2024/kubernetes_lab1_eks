@@ -519,7 +519,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
         http.HandleFunc("/", handler)
-        log.Println("Go Hello is listening on port 8888")
+        log.Println("Go Hello is listening on port 8080")
         log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
@@ -528,7 +528,7 @@ func main() {
 Comprobemos el funcionamiento en local:
 
 ```
-$ go run app\hello.go
+$ go run hello.go
 2024/05/16 09:15:38 Go Hello is listening on port 8080
 ```
 
